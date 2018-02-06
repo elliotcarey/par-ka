@@ -1,0 +1,91 @@
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+.container {
+    text-indent: blanchedalmond;
+}
+.term {
+    color: #f2b600
+}
+body {
+    background-color: black;
+}
+.blinking-cursor {
+  font-weight: 40px;
+  font-size: 100px;
+  color:  #0f0;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    padding-left: 800px
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0f0;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0f0;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color:  #0f0;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+.mc-field-group {
+    color: #f2b600
+}
+.required email {
+    background: black;
+}
+*:focus {
+outline: 0;
+}
+input:-webkit-autofill {
+-webkit-box-shadow: none;
+-webkit-text-fill-color: #000 !important;
+}
+button:focus, input:focus, a:focus{
+text-decoration: none !important;
+outline: none !important;
+}
+a:link {
+    text-decoration: none;
+}
