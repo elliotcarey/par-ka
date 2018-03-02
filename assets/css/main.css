@@ -160,7 +160,7 @@
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		
 		letter-spacing: 0.2rem;
 	}
 
@@ -369,7 +369,7 @@
 		color: inherit;
 		display: block;
 		outline: 0;
-		padding: 0 1rem;
+		padding: 0px 8rem;
 		text-decoration: none;
 		width: 100%;
 		
