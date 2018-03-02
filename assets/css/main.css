@@ -1,6 +1,24 @@
 
 /* Reset */
 
+/* Full screen video */
+
+.videoContainer 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.videoContainer video 
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
 @font-face {
     font-family: 'blurmediumregular';
     src: url('blurmed.woff2') format('woff2'),
